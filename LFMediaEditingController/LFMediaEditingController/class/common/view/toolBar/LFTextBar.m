@@ -228,7 +228,7 @@ CGFloat const LFTextBarAlignmentTag = 221;
      */
     {
         NSInteger count = 3;
-        CGFloat width = 42, margin = isiPad ? 5 : 0;
+        CGFloat width = 35, margin = isiPad ? 5 : 0;
         CGFloat maxWidth = width*count + margin*(count+1);
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(maxSliderWidth-maxWidth, 0, maxWidth, 44)];
         view.backgroundColor = [UIColor clearColor];
