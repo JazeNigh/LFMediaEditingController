@@ -28,7 +28,7 @@ CGFloat const JRPickColorView_Default_Height = 40.0f; //默认高度
 
 CGFloat const JRPickColorView_Default_ColorMaxWidth = 15.0f; // 默认最大宽度
 
-CGFloat const JRPickColorView_Default_ColorMinWidth = 10.0f; // 默认最小宽度
+CGFloat const JRPickColorView_Default_ColorMinWidth = 7.0f; // 默认最小宽度
 
 CGFloat const JRPickColorView_magnifierView_WitdhOrHeight = 25.0f; //!放大镜大小
 

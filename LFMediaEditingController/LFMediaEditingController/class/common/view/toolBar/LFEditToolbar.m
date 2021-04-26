@@ -352,7 +352,7 @@ NSUInteger kToolbar_MaxItems = 6;
         } configureCell:^(NSIndexPath * _Nonnull indexPath, LFToolCollectionItem * _Nonnull item, UICollectionViewCell * _Nonnull cell) {
             
             ((LFToolCollectionViewCell *)cell).item = item;
-            ((LFToolCollectionViewCell *)cell).delegate = self;
+            ((LFToolCollectionViewCell *)cell).delegate = weakSelf;
             int index = item.index;
             [((LFToolCollectionViewCell *)cell).lf_button setImage:bundleEditImageNamed(weakSelf.mainImageNormals[index]) forState:UIControlStateNormal];
             [((LFToolCollectionViewCell *)cell).lf_button setImage:bundleEditImageNamed(weakSelf.mainImageHighlighted[index]) forState:UIControlStateHighlighted];
